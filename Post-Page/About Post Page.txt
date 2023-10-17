@@ -1,0 +1,19 @@
+
+
+Project: Post-Page
+
+-Like Twitter and Instagram this is a social media platform where you can make posts. 
+
+-Index Page: Normal About Us type Page. Information about the platform.
+
+-Source Page: this is a page with sources to the administration of Post Page.
+
+-Login/Registration: Normal Login Page (includes validation)
+
+-Dashboard: Shows all Posts. Your post of one side. Other post on the other. (All YOUR posts can be edited if you're logged in)
+
+-Add Page: This is where you make your post and it will go to the Dashboard for everyone to see.
+
+-Friends Page: This will show all your friends (full name) or they can be deleted.
+
+-Discover Page: This will show all users who have an account so they can be added as a friend.

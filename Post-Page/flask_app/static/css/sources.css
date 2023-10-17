@@ -1,0 +1,68 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* top-nav  colors in use: purple: #8c52ff; blue: #5ce*/
+.top-nav {
+    height: 110px;
+    width: auto;
+    background-color: #8c52ff;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    width: auto;
+    background-color: #5ce;
+}
+
+
+.sources {
+    display: flex;
+    font-size: large;
+    height: 300px;
+    width: 520px;
+    border: 1px solid black;
+    background-color: #8c52ff;
+    color: aliceblue;
+    margin-top: 150px;
+   flex-direction: column;
+    align-items: center;
+}
+
+
+#icon {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+/* for the popup */
+
+.popup {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    background-color: aliceblue;
+    border: 5px solid black;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 10px;
+    left: 150px;
+}
+
+#popbutton {
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+}

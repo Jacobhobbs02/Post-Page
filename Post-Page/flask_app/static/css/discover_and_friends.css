@@ -1,0 +1,57 @@
+/* Both Pages */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+    background-color: #5ce !important;
+}
+/* top-nav  colors in use: purple: #8c52ff; blue: #5ce*/
+.top-nav {
+    height: 110px;
+    width: auto;
+    background-color: #8c52ff;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#icon {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    background-color: #8c52ff;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #5ce;
+  }
+
+/* friends page */
+
+.delete{
+  color: black;
+  text-decoration: none;
+}

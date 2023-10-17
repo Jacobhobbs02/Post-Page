@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Post Page</title>
+</head>
+<body>
+
+
+<div class="top-nav">
+    <img id="icon" src="{{url_for('static', filename='Images/PostPage.png') }}">
+    <h1>Post Page</h1>
+    <a class="btn text-light" href="/">Home</a>
+    <a class="btn text-light" href="/sources">Sources</a>
+    <a class="btn text-light" href="/account">Login/Registration</a>
+</div>
+
+<div class="section">
+
+<div class="description">
+    <h3>About Us!!</h3>
+    <p>Post Page is an all new social media platform where you get to explore, share your life expiernces in the shape of posts, and make new friends along the way!</p>
+    <p>To start please <a class="text-light" href="/account">create an account!</a></p>
+    <p>Have Fun!!</p>
+</div>
+
+<div>
+    <img id = "picture" src="{{url_for('static', filename='Images/PostPage.png') }}">
+</div>
+
+</div>
+
+<div class="popup" onclick="popUp(this)">
+    <img id="icon" src="{{url_for('static', filename='Images/cookie.png') }}" alt="alert">
+    <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the
+    <br>terms outlined in our cookie policy.</p>
+    <button id="popbutton">I Accept</button>
+</div>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>

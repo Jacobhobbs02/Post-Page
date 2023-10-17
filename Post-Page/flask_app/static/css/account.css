@@ -1,0 +1,56 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* top-nav  colors in use: purple: #8c52ff; blue: #5ce*/
+.top-nav {
+    height: 110px;
+    width: auto;
+    background-color: #8c52ff;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#icon {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.section {
+    height: 800px;
+    width: auto;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #5ce;
+
+}
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 500px;
+    width: 330px;
+    margin-top: 10px;
+    background-color: #8c52ff;
+    color: white;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: #8c52ff;
+    color: white;
+}
